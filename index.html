@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head> 
+<html lang="ukr">
+<meta charset="utf-8">
+<title>  </title>
+    <style>
+        body{
+            background-color: firebrick;
+            justify-content: center;
+        }
+        #contact{
+
+            height: 5%;
+            width: 5%;
+        }
+        #lock{
+            height: 5%;
+            width: 5%;
+        }
+        .block{
+            width: 30%;
+            height: 50%;
+            padding: 3%;
+            margin-top: 10%;
+            margin-left: 30%;
+            background-color: whitesmoke;
+            display: block;
+            box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.568);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        a:hover{
+            border-bottom: black 1px solid;
+        }
+        .input{
+            margin-top: 3%;
+            margin-left: 0%;
+            width: 90%;
+            height: 40px;
+            border-radius: 1px;
+            border-width: 0.1px;
+            border-color: #c5d5f1;
+            margin-bottom: 2%;
+        }
+        .button1{
+            width: 70%;
+            height: 40px;
+            border-radius: 1px;
+            border-width: 0px;
+            background-color: red;
+            margin-bottom: 6%;
+            margin-left: 1%;
+            font-size: 20px;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        #password{
+            background: url(https://image.shutterstock.com/image-vector/lock-icon-red-background-long-260nw-248363416.jpg) no-repeat;
+            background-size: auto 100%;
+            padding-left: 15%;
+        }
+        #email{
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwn_4TkXhiGAK5sw5KMT4NAo8ZiJRJxT3DCw&usqp=CAU) no-repeat;
+            background-size: auto 100%;
+            padding-left: 15%;
+
+        }
+        #forgot{
+            margin-left: 5%;
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .title{
+            text-align: center;
+
+        }
+        #checkbox{
+            margin-bottom: 10%;
+            
+        }
+        .butt{
+            width: 50%;
+        }
+        
+        .right-box{
+            margin-top: 2%;
+            margin-left: 8%;
+            width: 30%;
+        }
+        .box div{
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    
+<div class="block">
+
+    <div class="title">
+        <h1>Member Sing In</h1>
+        <p>Not a member yet?
+        <a id="singin" href="">Sing in</a><br>
+    </div>
+    <div class="reg-from">
+        <form>
+            
+            <input id="email" class="input" type="text" name="email" placeholder="Username/Email"><br>
+            <input id="password" class="input" type="password" name="password" placeholder="Пароль"><br>
+            <div class="box">
+            <div class="butt">
+            <input class="button1" type="button" value="Sing in">
+        </div>
+
+            <div class="right-box">
+            <input id="checkbox" type="checkbox" name="a" value="Remember me"> Remember me<br>
+            <a id="forgot" href=""> Forgot password?</a>
+        </div>
+    </div>
+    </form>
+    </div>
+</div>
+
+</body>
+</html>
